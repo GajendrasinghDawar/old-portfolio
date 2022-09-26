@@ -1,3 +1,4 @@
+
 body {
   font-family: Palatino, "Palatino Linotype", "Book Antiqua", "Hoefler Text",
     Georgia, "Lucida Bright", Cambria, Times, "Times New Roman", serif;
@@ -5,7 +6,7 @@ body {
   line-height: 1.6;
   color: #0c3c26;
   letter-spacing: 1px;
- background: #f8f8f8;
+  background: #f8f8f8;
 }
 
 /*
@@ -19,7 +20,6 @@ Add transition to containers so they can push in and out.
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  
 }
 
 /*
@@ -29,7 +29,6 @@ This is the parent `<div>` that contains the menu and the content area.
   position: relative;
   left: 0;
   padding-left: 0;
- 
 }
 #layout.active #menu {
   left: 150px;
@@ -38,22 +37,6 @@ This is the parent `<div>` that contains the menu and the content area.
 
 #layout.active .menu-link {
   left: 150px;
-}
-/*
-The content `<div>` is where all your content goes.
-*/
-.content {
-  margin: 0 auto;
-  padding: 0 2em;
-  max-width: 800px;
-  margin-bottom: 50px;
-  /* line-height: 1.6em; */
-}
-
-.content-subhead {
-  margin: 50px 0 20px 0;
-  font-weight: 300;
-  color: #888;
 }
 
 /*
@@ -69,32 +52,25 @@ appears on the left side of the page.
   left: 0;
   bottom: 0;
   z-index: 1000; /* so the menu or its navicon stays above all content */
-  /* background: #191818; */
-  background: #0c4b33;
-  overflow-y: auto;
+  background-color: #0c4b33;
+  font-size: 2rem;
+
 }
 /*
     All anchors inside the menu should be styled like this.
     */
 #menu a {
-  color: #999;
+  color: #fff;
   border: none;
-  padding: 0.6em 0 0.6em 0.6em;
-}
-
-/*
-    Remove all background/borders, since we are applying them to #menu.
-    */
-
-#menu .pure-menu,
-#menu .pure-menu ul {
-  border: none;
-  background: transparent;
+  /* padding: 0.6em 0 0.6em 0.6em; */
 }
 
 /*
     Add that light border to separate items into groups.
     */
+#menu  ul {
+  list-style-type: none;
+}
 #menu .pure-menu ul,
 #menu .pure-menu .menu-item-divided {
   border-top: 1px solid #333;
@@ -107,40 +83,6 @@ appears on the left side of the page.
   background: #333;
 }
 
-/*
-    This styles the selected menu item `<li>`.
-    */
-#menu .pure-menu-selected,
-#menu .pure-menu-heading {
-  background: #1f8dd6;
-}
-/*
-        This styles a link within a selected menu item `<li>`.
-        */
-#menu .pure-menu-selected a {
-  color: #fff;
-}
-
-/*
-    This styles the menu heading.
-    */
-#menu .pure-menu-heading {
-  font-size: 110%;
-  color: #fff;
-  margin: 0;
-}
-
-/* -- Dynamic Button For Responsive Menu -------------------------------------*/
-
-/*
-The button to open/close the Menu is custom-made and not part of Pure. Here's
-how it works:
-*/
-
-/*
-`.menu-link` represents the responsive menu toggle that shows/hides on
-small screens.
-*/
 .menu-link {
   position: fixed;
   display: block; /* show this only on small screens */

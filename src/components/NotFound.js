@@ -1,4 +1,4 @@
-
+import "./css/NotFound.css";
 import { useEffect } from "react";
 function NotFound() {
     useEffect(() => {
@@ -7,7 +7,7 @@ function NotFound() {
 
     return (
         <>
-            <div className="content">
+            <div className="content notfound">
                 <p className="not-found-P">
                     Not Found!
                 </p>
