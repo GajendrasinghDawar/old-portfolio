@@ -56,3 +56,37 @@
   right: 2rem;
   text-align: center;
 }
+@media (max-width: 48em) {
+  .detail-div-flex {
+    /* padding: 0rem 2rem 1rem 3rem; */
+    padding: 0;
+  }
+  .code-snippet-div {
+    min-width: 100%;
+    min-height: 8rem;
+  }
+  .detail-div-flex h1,
+  h2,
+  h3,
+  h4 {
+    margin: 40px 0px 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .detail-div-flex p {
+    margin: 0.2rem 0;
+  }
+
+  .copy-popup {
+    width: 80px;
+    bottom: 4rem;
+    right: 2rem;
+    text-align: center;
+  }
+  .arrow-flex {
+    position: fixed;
+    top: 2.5rem;
+    left: 0.7rem;
+    background-color: transparent;
+  }
+}

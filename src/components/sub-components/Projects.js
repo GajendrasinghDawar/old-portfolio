@@ -9,10 +9,12 @@ export default function Projects() {
                 <h1> Here are some projects I've built: </h1>
             </header>
             <article className="article-flex-container">
-                <div className="project-divs">
+
+                <div className="project-divs give-me-width">
                     <h3>E-learning Website</h3>
                     <p>This simple E-learning Django website has a content management system (CMS). Where students can enroll, and Teachers can serve content through the website . Students can also chat in enrolled course rooms. This website is running on Amazon Elastic Compute Cloud (Amazon EC2). <a className="highlight-me" href="http://ec2-65-1-94-119.ap-south-1.compute.amazonaws.com/accounts/login/" target={'_blank'} rel="noopener noreferrer">See Live</a>(It is not production ready it was just to learn Django core concepts) or <a className="highlight-me" href="https://github.com/GajendrasinghDawar/e-learning_website" target={'_blank'} rel="noopener noreferrer">look into the source code</a>.</p>
                     <h4>Tools (technologies) I have used in this project: </h4>
+
                     <dl>
                         <dt>
                             <span className="highlight-me">Bulma CSS framework</span>
@@ -44,7 +46,7 @@ export default function Projects() {
                 </div>
                 <div className="project-divs">
                     <h3>This Portfolio Website</h3>
-                    <p>It's my Website, Where I'll write notes for my future self. To build this website, I took a theme reference from Djangoproject.com.My Main motive was to learn the core concept of ReactJs.<a className="highlight-me" >Look into the source code</a>.</p>
+                    <p>It's my Website, Where I'll write notes for my future self. To build this website, I took a theme reference from Djangoproject.com.My Main motive was to learn the core concept of ReactJs.<span className="highlight-me" >Look into the source code</span>.</p>
                     <h4>Tools (technologies) I have used in this project: </h4>
                     <dl>
                         <dt><span className="highlight-me">Django</span></dt>
