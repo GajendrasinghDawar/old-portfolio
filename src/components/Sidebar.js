@@ -13,7 +13,7 @@ export default function Sidebar() {
                 <ul>
                     <li className="home-icon">
                         <Link to="/">
-                            <i class='fas fa-home'></i>
+                            <i className='fas fa-home'></i>
                         </Link>
                     </li>
                     <div className="social-icon">
@@ -47,7 +47,7 @@ export default function Sidebar() {
                             <li>
                                 <Link to="#">
                                     <div className="icon-size-max">
-                                        <i class='fas fa-file-alt'></i>
+                                        <i className='fas fa-file-alt'></i>
                                         <span className="tooltiptext"> Resume</span>
                                     </div>
 

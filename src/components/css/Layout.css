@@ -57,6 +57,8 @@ appears on the left side of the page.
   z-index: 1000; /* so the menu or its navicon stays above all content */
   background-color: #0c4b33;
   font-size: 2rem;
+  /* added it 12clock'o */
+  min-height: 100vh;
 }
 /*
     All anchors inside the menu should be styled like this.
