@@ -46,7 +46,7 @@ export default function Projects() {
                 </div>
                 <div className="project-divs">
                     <h3>This Portfolio Website</h3>
-                    <p>It's my Website, Where I'll write notes for my future self. To build this website, I took a theme reference from Djangoproject.com.My Main motive was to learn the core concept of ReactJs.<span className="highlight-me" >Look into the source code</span>.</p>
+                    <p>It's my Website, Where I'll write notes for my future self. To build this website, I took a theme reference from Djangoproject.com.My Main motive was to learn the core concept of ReactJs.</p>
                     <h4>Tools (technologies) I have used in this project: </h4>
                     <dl>
                         <dt><span className="highlight-me">Django</span></dt>

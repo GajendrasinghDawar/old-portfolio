@@ -26,7 +26,7 @@ export default function Notes() {
         return (
             <li key={note.id} >
                 <p>{note.note_title}</p>
-                <Link to={note.id.toString()}>Read It ...</Link>
+                <Link reloadDocument to={note.id.toString()}>Read It ...</Link>
             </li>
         )
     })

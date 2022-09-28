@@ -6,13 +6,13 @@ export default function Sidebar() {
         <div id="menu">
             <nav className="nav-bar">
                 <div className="pro-pic-div">
-                    <Link to="/">
+                    <Link reloadDocument to="/">
                         <img className="profile-pic" src={gaju} alt="gaju.jpg" />
                     </Link>
                 </div>
                 <ul>
                     <li className="home-icon">
-                        <Link to="/">
+                        <Link reloadDocument to="/">
                             <i className='fas fa-home'></i>
                         </Link>
                     </li>
@@ -54,7 +54,7 @@ export default function Sidebar() {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/notes">
+                                <Link reloadDocument to="/notes">
                                     <div className="icon-size-max">
                                         <i className="fa fa-solid fa-clipboard Onme" cl></i>
                                         <span className="tooltiptext">Notes</span>
