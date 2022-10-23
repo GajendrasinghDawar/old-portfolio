@@ -46,13 +46,14 @@ export default function Sidebar() {
                         </a></li>
                         <div className="notes-div">
                             <li>
-                                <Link to="#">
+                                <a href="https://localhost-test-bucket.s3.ap-south-1.amazonaws.com/resume_8_GajendrasinghDawar.pdf" target="_blank"
+                                    rel="noopener noreferrer">
                                     <div className="icon-size-max">
                                         <i className='fas fa-file-alt'></i>
                                         <span className="tooltiptext"> Resume</span>
                                     </div>
 
-                                </Link>
+                                </a>
                             </li>
                             <li>
                                 <Link reloadDocument to="/notes">
