@@ -22,8 +22,7 @@
   box-shadow: 18px;
   padding: 1rem;
   word-wrap: break-word;
-  /* border: 1px solid #858585; */
-    border: 1px solid var(--secondary-accent);
+  border: 1px solid #858585;
 }
 
 .about-div-p-1 {
@@ -33,11 +32,8 @@
 .about-div-p {
   margin-top: 0rem;
 }
-
 .make-me {
   color: hsl(171, 100%, 29%);
-    /* color: var(--secondary-accent); */
-      /* color: var(--primary-accent); */
   font-size: 50px;
   /* font-size: 3rem; */
   line-height: 1.2;
@@ -70,5 +66,4 @@ h4 {
   margin: 10px 0px 10px;
 
 }
-
 }

@@ -1,19 +1,18 @@
 import { Link } from "react-router-dom";
 import './css/Sidebar.css'
 import gaju from './img/gaju.jpg'
-import g1 from './img/g1.jpg'
 export default function Sidebar() {
     return (
         <div id="menu">
             <nav className="nav-bar">
                 <div className="pro-pic-div">
-                    <Link to="/">
-                        <img className="profile-pic" src={g1} alt="gaju.jpg" />
+                    <Link reloadDocument to="/">
+                        <img className="profile-pic" src={gaju} alt="gaju.jpg" />
                     </Link>
                 </div>
                 <ul>
                     <li className="home-icon">
-                        <Link to="/">
+                        <Link reloadDocument to="/">
                             <i className='fas fa-home'></i>
                         </Link>
                     </li>

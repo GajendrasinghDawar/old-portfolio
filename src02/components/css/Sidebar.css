@@ -5,12 +5,10 @@
   justify-content: center;
   padding-top: 10px;
 }
-
 .pro-pic-div {
   padding-top: 8px;
   padding-right: 3px;
 }
-
 .pro-pic-div .profile-pic {
   border-radius: 50%;
   width: 110px;
@@ -18,8 +16,7 @@
   border-width: 1px;
   border-style: solid;
   /* border-color: #fff; */
-  /* border-color: #f8f8f8; */
-    background-color: var(--primary-accent);
+  border-color: #f8f8f8;
   box-sizing: border-box;
 }
 
@@ -29,22 +26,20 @@
   right: 0.2rem;
   padding-top: 5px;
 }
-
 .social-icon {
   position: relative;
   top: 1rem;
   /* right: 1.1rem; */
-  padding-top: 50px;
+  padding-top: 20px;
 }
-
 .notes-div {
   position: relative;
   left: 0.1rem;
   font-size: 2.4rem;
-  padding-top: 15px;
+  padding-top: 20px;
+  padding-left: 2px;
   color: #0c4b33;
 }
-
 .icon-size-max {
   position: relative;
 }
@@ -56,18 +51,14 @@
   left: 2.2rem;
   visibility: hidden;
   width: 120px;
-  /* background: #0c4b33; */
-    background-color: var(--sidebar-bg);
+  background: #0c4b33;
   border: 1px solid;
-  /* color: #fff; */
-    color: var(--primary);
+  color: #fff;
   text-align: center;
   border-radius: 6px;
-  border-color: var(--primary);
   padding: 5px 0;
   font-size: 1.3rem;
 }
-
 .icon-size-max .tooltiptext::after {
   content: " ";
   position: absolute;
@@ -76,14 +67,11 @@
   margin-top: -5px;
   border-width: 8px;
   border-style: solid;
-  /* border-color: transparent #fff transparent transparent; */
-    border-color: transparent var(--primary) transparent transparent;
+  border-color: transparent #fff transparent transparent;
 }
-
 .icon-size-max:hover .tooltiptext {
   visibility: visible;
 }
-
 .icon-size-max:active .tooltiptext {
   visibility: visible;
 }

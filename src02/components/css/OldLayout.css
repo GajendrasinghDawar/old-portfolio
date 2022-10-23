@@ -23,9 +23,10 @@ dl dt {
 .left-dd {
   padding-left: 3em;
 }
-body ::selection {
-  /* background-color: #20aa76; */
+.highlight-me {
   color: hsl(171, 100%, 29%);
-    /* color: #f8f8f8; */
-      background-color: var(--primary-accent);
+}
+body ::selection {
+  background-color: #20aa76;
+  color: #f8f8f8;
 }

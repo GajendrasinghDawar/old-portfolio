@@ -11,13 +11,10 @@
 }
 
 .notes-div-flex-container a {
-  /* color: hsl(171, 100%, 29%); */
-  color: var(--primary-accent);
-
+  color: hsl(171, 100%, 29%);
+  
 }
-
 .notes-div-flex-container a:hover {
   opacity: 0.7;
-  /* color: #15c39a; */
-  color: var(--primary);
+  color: #15c39a;
 }

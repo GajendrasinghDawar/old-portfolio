@@ -6,24 +6,13 @@
   /* padding: 0rem 2rem 1rem 3rem; */
   padding: 2rem;
 }
-
 .code-snippet-div {
-  --code-bg: #181d27;
-    --code-fg: #F8F8F8;
-    --code-border: #181d27;
   width: 60vw;
   min-height: 8em;
   margin: 25px 0;
-  /* background-color: #f4f4f4; */
-    background-color: var(--code-bg);
+  background-color: #f4f4f4;
   border-radius: 0.25rem;
-  /* border: 1px solid #858585; */
-    border: 1px solid var(--secondary-accent);
-    color: var(--text-l10);
-  }
-  
-  .code-snippet-div:hover {
-    border: 1px solid var(--text-l10);
+  border: 1px solid #858585;
 }
 
 .pre-div {
@@ -32,14 +21,12 @@
   overflow-y: auto;
   scrollbar-width: none;
 }
-
 .arrow-flex {
   display: flex;
   color: hsl(171, 100%, 29%);
   font-size: 1.3rem;
   margin-left: 5px;
 }
-
 .arrow-flex a {
   color: hsl(171, 100%, 29%);
 }
@@ -50,42 +37,34 @@
   border: none;
   border-radius: 4px;
   padding: 2px 2px 2px 2px;
-  /* color: hsl(171, 100%, 29%); */
-    color: var(--primary-accent);
+  color: hsl(171, 100%, 29%);
   padding: 1rem;
 }
-
 .copy-icon-div :hover {
   opacity: 0.9;
   color: #20aa76;
 }
 
 .copy-popup {
-  /* background: #0c4b33; */
+  background: #0c4b33;
   border: 2px solid;
-  /* color: #fff; */
+  color: #fff;
   border-radius: 6px;
   width: 120px;
   position: fixed;
   bottom: 2rem;
   right: 2rem;
   text-align: center;
-  background-color: var(--sidebar-bg);
-    color: var(--primary);
-    border-color: var(--primary-accent);
 }
-
 @media (max-width: 48em) {
   .detail-div-flex {
     /* padding: 0rem 2rem 1rem 3rem; */
     padding: 0;
   }
-
   .code-snippet-div {
     min-width: 100%;
     min-height: 8rem;
   }
-
   .detail-div-flex h1,
   h2,
   h3,
@@ -94,7 +73,6 @@
     padding-top: 10px;
     padding-left: 10px;
   }
-
   .detail-div-flex p {
     margin: 0.2rem 0;
   }
@@ -105,7 +83,6 @@
     right: 2rem;
     text-align: center;
   }
-
   .arrow-flex {
     position: fixed;
     top: 2.5rem;
