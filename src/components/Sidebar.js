@@ -34,7 +34,7 @@ export default function Sidebar() {
                         </li>
                         <li>
                             <a
-                                href="https://github.com/GajendrasinghDawar?tab=repositories"
+                                href="https://github.com/GajendrasinghDawar"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             ><i className="fa fa-brands fa-github"></i>
