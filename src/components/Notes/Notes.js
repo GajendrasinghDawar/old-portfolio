@@ -11,7 +11,7 @@ export default function Notes() {
         document.title = "GajendrasinghDawar | Notes"
         axios({
             method: 'get',
-            url: 'https://gajendrasinghdawar.pythonanywhere.com/notes/',
+            url: 'https://gajendrasinghdawar.pythonanywhere.com/myportfolio_api/',
             responseType: 'json'
         })
             .then((Response) => {

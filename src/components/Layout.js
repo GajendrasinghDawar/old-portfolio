@@ -1,16 +1,19 @@
 import { useState } from 'react'
 import { Route, Routes, } from "react-router-dom";
-import { useEffect } from "react";
 
 import './css/Layout.css'
 import './css/OldLayout.css'
+
 import Content from './Content'
 import Sidebar from './Sidebar'
 import Notes from './Notes/Notes';
 import NoteDetail from './Notes/NoteDetail';
 import NotFound from './NotFound';
+
 export default function Layout() {
+
     const [toggleClass, setToggleClass] = useState('')
+
     function setClass() {
         if (toggleClass === '') {
             setToggleClass('active')
@@ -30,9 +33,7 @@ export default function Layout() {
                 </div>
                 <Sidebar />
                 <Routes>
-                    <Route path="/" element={
-                        <Content />
-                    }
+                    <Route path="/" element={<Content />}
                     />
                     <Route path="/notes">
                         <Route index

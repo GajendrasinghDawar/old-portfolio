@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import './css/Sidebar.css'
-import gaju from './img/gaju.jpg'
 import g1 from './img/g1.jpg'
+
 export default function Sidebar() {
     return (
         <div id="menu">
@@ -46,7 +46,7 @@ export default function Sidebar() {
                         </a></li>
                         <div className="notes-div">
                             <li>
-                                <a href="https://localhost-test-bucket.s3.ap-south-1.amazonaws.com/resume_8_GajendrasinghDawar.pdf" target="_blank"
+                                <a href="#"
                                     rel="noopener noreferrer">
                                     <div className="icon-size-max">
                                         <i className='fas fa-file-alt'></i>
@@ -65,9 +65,7 @@ export default function Sidebar() {
                             </li>
                         </div>
                     </div>
-
                 </ul>
-
             </nav>
         </div>
     )

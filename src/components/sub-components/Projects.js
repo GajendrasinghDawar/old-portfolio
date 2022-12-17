@@ -12,7 +12,7 @@ export default function Projects() {
 
                 <div className="project-divs give-me-width">
                     <h3>E-learning Website</h3>
-                    <p>This simple E-learning Django website has a content management system (CMS). Where students can enroll, and Teachers can serve content through the website . Students can also chat in enrolled course rooms. This website is running on Amazon Elastic Compute Cloud (Amazon EC2). <a className="make-a" href="http://ec2-65-1-94-119.ap-south-1.compute.amazonaws.com/accounts/login/" target={'_blank'} rel="noopener noreferrer">See Live</a>(It is not production ready it was just to learn Django core concepts) or <a className="make-a" href="https://github.com/GajendrasinghDawar/e-learning_website" target={'_blank'} rel="noopener noreferrer">look into the source code</a>.</p>
+                    <p>This simple E-learning Django website has a content management system (CMS). Where students can enroll, and Teachers can serve content through the website . Students can also chat in enrolled course rooms. This website is running on Amazon Elastic Compute Cloud (Amazon EC2). <a className="make-a" href="https://github.com/GajendrasinghDawar/e-learning_website" target={'_blank'} rel="noopener noreferrer">look into the source code</a>.</p>
                     <h4>Tools (technologies) I have used in this project: </h4>
 
                     <dl>
@@ -51,7 +51,7 @@ export default function Projects() {
                     <dl>
                         <dt><span className="highlight-me">Django</span></dt>
                         <dd className="left-dd">
-                            I used Django in this project for serving blogs (notes to self) from the backend. However, it still needs some polish. Django is running on <a className="make-a" href="http://gajendrasinghdawar.pythonanywhere.com/notes/" target={'_blank'} rel="noopener noreferrer">PythonAnywhere.com</a>.
+                            I used Django in this project for serving blogs (notes to self) from the backend. However, it still needs some polish. Django is running on <a className="make-a" href="http://gajendrasinghdawar.pythonanywhere.com/myportfolio_api/" target={'_blank'} rel="noopener noreferrer">PythonAnywhere.com</a>.
                         </dd>
                     </dl>
                     <dl>
